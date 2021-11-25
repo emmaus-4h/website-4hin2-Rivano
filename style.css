@@ -85,6 +85,16 @@ nav li a.active {
     background-color: rgb(0, 190, 0);
 }
 
+.blocks {
+  float: left;
+  width: 20%;
+}
 
+.blokinfo {
+  float: left;
+  margin-left: 100px;
+  font-size: 1,5em;
+  font-family: Minecrafter;
+}
 
 

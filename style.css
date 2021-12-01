@@ -13,7 +13,7 @@ html, body {
 
 main {
     margin: 0 auto;
-    width: 700px;
+    width: 1000px;
     position: relative;
 }
 
@@ -78,23 +78,24 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: rgb(0, 255, 0);
+    background-color: rgb(0, 223, 0);
 }
 
 nav li a.active {
     background-color: rgb(0, 190, 0);
 }
 
-.blocks {
+.plaatje {
   float: left;
-  width: 20%;
+  padding: 30px;
+  width: 30%;
 }
 
-.blokinfo {
-  float: left;
-  margin-left: 100px;
-  font-size: 1,5em;
-  font-family: Minecrafter;
+.plaattekst {
+  float: right;
+  margin-right: 150px;
+  font-size: 2em;
+
 }
 
 

@@ -1,4 +1,6 @@
-/*box-sizing
+/*box-sizing: border-box;*/
+/*overflow: auto;*/
+/*margin: 0px;*/
 /* Basislayout */
 
 html, body {
@@ -70,11 +72,13 @@ float: left;
 }
 
 nav li a {
+    height: 20px; 
     display: block;
     color: rgb(0,0,0);
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
+    font-size: 1.3em;
 }
 
 nav li a:hover {
@@ -84,10 +88,11 @@ nav li a:hover {
 nav li a.active {
     background-color: rgb(0, 190, 0);
 }
-
+/*plaatjes*/
 .plaatje {
   float: left;
-  padding: 30px;
+  overflow: auto;
+  padding: 35px;
   width: 30%;
 }
 

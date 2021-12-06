@@ -4,7 +4,7 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-image: url('afbeeldingen/Dirt.png');  
+    background-image: url('afbeeldingen/Dirtback.png');  
     
     color: #FFFFFF;
     font: Verdana, Arial, Sans-Serif;
@@ -51,7 +51,7 @@ img.zweefLinks {
 }
 
 a {
-    color: rgb(0, 255, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -113,6 +113,26 @@ nav li a.active {
   margin-top: -325px;
   margin-right: 70px;
   font-size: 2.5em;
+  text-align: end;
 }
+
+.plaattekst-groot {
+  float: right;
+  box-sizing: border-box;
+  margin-top: -450px;
+  margin-right: 320px;
+  font-size: 2.5em;
+  text-align: end;
+}
+
+.plaatinhoud-groot {
+  float: right;
+  box-sizing: border-box;
+  margin-top: -450px;
+  margin-right: 70px;
+  font-size: 2.5em;
+  text-align: end;
+}
+
 
 

@@ -57,10 +57,6 @@ a {
     text-decoration: none;
 }
 
-.ow {
-  border-bottom: 1px black dashed;
-}
-
 .belangrijk {
   font-size: 10em;
 }
@@ -111,6 +107,14 @@ nav li a.active {
   margin: 10px;
   border-color: rgba(255, 255, 255, 10%);
   
+}
+
+.plaatje-klein {
+  height: 90px;
+}
+
+.plaatje-baby {
+  height: 20px;
 }
 
 .plaattekst {

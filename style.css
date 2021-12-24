@@ -6,8 +6,7 @@ html, body {
     padding: 0;
     background-image: url('afbeeldingen/Backdirt.png');
     color: #FFFFFF;
-    font-family: 'Minecraft', sans-serif;
-    import: url('http://fonts.cdnfonts.com/css/minecraft-4');
+    text-shadow: 2px 2px black;
 }
 
 
@@ -24,8 +23,9 @@ article {
 
 
 header {
-    color: #FFFFFF;
+    color: rgb(90, 90, 90);
     text-align: center;
+    text-shadow: 8px 8px black;
     
 }
 
@@ -84,19 +84,22 @@ nav li a {
     padding: 14px 20px;
     text-decoration: none;
     font-size: 1.3em;
+    text-shadow: 0px 0px black;
     transition: 0.3s;
 }
 
 nav li a:hover {
-    background-color: rgb(0, 210, 0);
+    background-color: rgb(180, 139, 92);
     font-size: 1.4em;
     text-decoration: underline;
+    text-shadow: 1px 1px rgb(0, 240, 0);
 }
 
 nav li a.active {
     background-color: rgb(0, 190, 0);
     font-size: 1.4em;
     text-decoration: underline;
+    text-shadow: 1px 1px rgb(180, 139, 92);
    
 }
 /*plaatjes*/

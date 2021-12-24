@@ -34,7 +34,7 @@ Stap 4: Inhoud en plaatjes
 
 Stap 5: Kleuren 
 - [x] Je hebt kleuren en fonts gekozen. 
-- [ ] Je hebt de kleuren en fonts in CSS toegevoegd. 
+- [x] Je hebt de kleuren en fonts in CSS toegevoegd. 
 
 Stap 6: Perfectioneren 
 - [ ] Je hebt slordigheden in de lay-out, kleuren en inhoud gerepareerd. 

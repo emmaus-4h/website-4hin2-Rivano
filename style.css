@@ -7,6 +7,7 @@ html, body {
     background-image: url('afbeeldingen/Backdirt.png');
     color: #FFFFFF;
     text-shadow: 2px 2px black;
+    cursor: -webkit-grab;
 }
 
 
@@ -40,21 +41,6 @@ footer {
 
 .logo {
   width: 100%;
-
-  
-}
-img.zweefLinks {
-    float: left;
-    margin-right: 15px;
-}
-
-.smalltext {
-    font-size: 0.7em;
-}
-
-a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
 }
 
 .belangrijk {
@@ -108,16 +94,29 @@ nav li a.active {
   box-sizing: border-box;
   overflow: auto;
   margin: 10px;
-  border-color: rgba(255, 255, 255, 10%);
-  
+  border: 10px solid rgba(255, 255, 255, 0.5);
+}
+
+.plaatje-groot {
+  width: 100%;
+  box-sizing: border-box;
+  overflow: auto;
+  margin-top: 10px;
+  border: 10px solid rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .plaatje-klein {
   height: 90px;
+  box-sizing: border-box;
+  overflow: auto;
+  margin: 10px;
 }
 
 .plaatje-baby {
   height: 20px;
+  box-sizing: border-box;
+  overflow: auto;
 }
 
 .plaattekst {
@@ -133,6 +132,12 @@ nav li a.active {
   font-size: 5em;
   margin-right: 100px;
 }
+
+.plaattekst-kop {
+  float: left;
+  box-sizing: border-box;
+  font-size: 2.5em;
+  }
 
 .plaattekst-lijst {
   float: right;

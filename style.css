@@ -97,6 +97,13 @@ nav li a.active {
   border: 10px solid rgba(255, 255, 255, 0.5);
 }
 
+.plaatje-png {
+  height: 350px;
+  box-sizing: border-box;
+  overflow: auto;
+  margin: 10px;
+}
+
 .plaatje-groot {
   width: 100%;
   box-sizing: border-box;
@@ -117,6 +124,17 @@ nav li a.active {
   height: 20px;
   box-sizing: border-box;
   overflow: auto;
+}
+
+.plaatje-home {
+  display: block;
+  align-content: center;
+  height: 350px;
+  box-sizing: border-box;
+  overflow: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid rgba(255, 255, 255, 0.5);
 }
 
 .plaattekst {
